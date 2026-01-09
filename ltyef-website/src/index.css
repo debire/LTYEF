@@ -1,0 +1,94 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@theme {
+  --color-primary: #F39B14;
+  --color-text-dark: #313A41;
+  --color-text-light: #6B7280;
+  --color-dark: #313A41;
+  --font-family-roboto: 'Roboto', sans-serif;
+}
+
+/* Base styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #313A41;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Container */
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* Button base styles */
+.btn-primary {
+  background-color: #F39B14;
+  color: white;
+  padding: 0.6rem 1.7rem;
+  font-weight: 400;
+  border: 2px solid #F39B14;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #F39B14;
+  border-color: #F39B14;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #F39B14;
+  padding: 0.625rem 1.5rem;
+  font-weight: 400;
+  border: 2px solid #F39B14;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #F39B14;
+  color: white;
+}
+
+/* Nav link styles */
+.nav-link {
+  color: #313A41;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #F39B14;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+/* Modal overlay */
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}

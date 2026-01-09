@@ -47,7 +47,7 @@ const DonationsSection = ({
 
   return (
     <section className="py-16 md:py-24 bg-[#F5F7FA]">
-      <div className="max-w-350 mx-auto px-4 sm:px-6 lg:px-12">
+      <div className="max-w-300 mx-auto px-4 sm:px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-16 items-center">
           {/* Text Content */}
           <div className="max-w-2xl">

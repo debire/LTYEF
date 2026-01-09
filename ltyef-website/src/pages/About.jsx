@@ -58,7 +58,7 @@ const About = () => {
                 Our Mission
               </h2>
               <p className="text-[#313A41]/85 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                To mentor, equip, and empower teens and youth across Nigeria to become confident, responsible, and fulfilled individuals who lead with purpose. Through mentorship programmes, skills training, community outreach, and strategic partnerships, we walk alongside young people — guiding them through challenges, celebrating their growth, and providing them with the tools and opportunities they need to thrive.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ const About = () => {
                 Our Vision
               </h2>
               <p className="text-[#313A41]/85 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                To raise a generation of purpose-driven young leaders who are confident in their identity, equipped with practical life skills, and committed to making a positive impact in their families, communities, and nation.
               </p>
             </div>
           </div>

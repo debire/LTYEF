@@ -21,7 +21,7 @@ const Donation = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mt-3">
             {/* Text Content */}
             <div>
-              <h1 className="text-[40px] font-bold text-[#313A41] mb-6 leading-tight">
+              <h1 className="text-[28px] md:text-[40px] font-bold text-[#313A41] mb-6 leading-tight">
                 Your Generosity Changes Lives
               </h1>
               <div className="space-y-4">
@@ -55,7 +55,7 @@ const Donation = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             {/* Left Side - Static Content */}
             <div>
-              <h2 className="text-[40px] font-bold text-[#313A41] mb-6 leading-tight">
+              <h2 className="text-[28px] md:text-[40px] font-bold text-[#313A41] mb-6 leading-tight">
                 How you can contribute to the Future of Our Youth
               </h2>
               <div className="space-y-4">

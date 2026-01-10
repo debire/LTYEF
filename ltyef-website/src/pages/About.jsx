@@ -2,7 +2,6 @@ import discoverImg from '../assets/images/discover.png';
 import milestoneImg from '../assets/images/milestone.png';
 import CTASection from '../components/sections/CTASection';
 
-
 const About = () => {
   return (
     <div>
@@ -13,7 +12,7 @@ const About = () => {
           <span className="text-primary font-normal uppercase tracking-wide">
             Know About Us
           </span>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-3">
             {/* Text Content */}
             <div>
@@ -38,9 +37,9 @@ const About = () => {
 
             {/* Image */}
             <div className="h-full">
-              <img 
-                src={discoverImg} 
-                alt="Happy children smiling" 
+              <img
+                src={discoverImg}
+                alt="Happy children smiling"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -58,7 +57,7 @@ const About = () => {
                 Our Mission
               </h2>
               <p className="text-[#313A41]/85 leading-relaxed">
-                To mentor, equip, and empower teens and youth across Nigeria to become confident, responsible, and fulfilled individuals who lead with purpose. Through mentorship programmes, skills training, community outreach, and strategic partnerships, we walk alongside young people — guiding them through challenges, celebrating their growth, and providing them with the tools and opportunities they need to thrive.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
               </p>
             </div>
 
@@ -68,7 +67,7 @@ const About = () => {
                 Our Vision
               </h2>
               <p className="text-[#313A41]/85 leading-relaxed">
-                To raise a generation of purpose-driven young leaders who are confident in their identity, equipped with practical life skills, and committed to making a positive impact in their families, communities, and nation.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
               </p>
             </div>
           </div>
@@ -81,9 +80,9 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Image */}
             <div>
-              <img 
-                src={milestoneImg} 
-                alt="Together we will change the world" 
+              <img
+                src={milestoneImg}
+                alt="Together we will change the world"
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -106,18 +105,18 @@ const About = () => {
               </div>
 
               {/* Stats */}
-              <div className="flex gap-12 mt-8">
+              <div className="flex flex-wrap gap-6 md:gap-12 mt-8">
                 <div>
-                  <span className="text-4xl font-bold text-[#313A41]">75+</span>
-                  <p className="text-[#313A41]/85 mt-1">Donations Received</p>
+                  <span className="text-2xl md:text-4xl font-bold text-[#313A41]">75+</span>
+                  <p className="text-[#313A41]/85 text-sm md:text-base mt-1">Donations Received</p>
                 </div>
                 <div>
-                  <span className="text-4xl font-bold text-[#313A41]">10+</span>
-                  <p className="text-[#313A41]/85 mt-1">Volunteers</p>
+                  <span className="text-2xl md:text-4xl font-bold text-[#313A41]">10+</span>
+                  <p className="text-[#313A41]/85 text-sm md:text-base mt-1">Volunteers</p>
                 </div>
                 <div>
-                  <span className="text-4xl font-bold text-[#313A41]">50+</span>
-                  <p className="text-[#313A41]/85 mt-1">Lives Impacted</p>
+                  <span className="text-2xl md:text-4xl font-bold text-[#313A41]">50+</span>
+                  <p className="text-[#313A41]/85 text-sm md:text-base mt-1">Lives Impacted</p>
                 </div>
               </div>
             </div>
@@ -131,110 +130,110 @@ const About = () => {
           <h2 className="text-[40px] font-bold text-[#313A41] text-center mb-12">
             Meet Our Team
           </h2>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
             {/* Team Member 1 */}
             <div>
-              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4 mb-4">
-                <img 
-                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=500&fit=crop" 
-                  alt="Adaeze Okonkwo" 
+              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-3 md:mb-4">
+                <img
+                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=500&fit=crop"
+                  alt="Adaeze Okonkwo"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-[#313A41] font-medium text-lg">Adaeze Okonkwo</h3>
-              <p className="text-primary">Founder & Executive Director</p>
+              <h3 className="text-[#313A41] font-medium text-sm md:text-lg">Adaeze Okonkwo</h3>
+              <p className="text-primary text-xs md:text-base">Founder & Executive Director</p>
             </div>
 
             {/* Team Member 2 */}
             <div>
-              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-4">
-                <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop" 
-                  alt="Chukwuemeka Eze" 
+              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-3 md:mb-4">
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop"
+                  alt="Chukwuemeka Eze"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-[#313A41] font-medium text-lg">Chukwuemeka Eze</h3>
-              <p className="text-primary">Programme Director</p>
+              <h3 className="text-[#313A41] font-medium text-sm md:text-lg">Chukwuemeka Eze</h3>
+              <p className="text-primary text-xs md:text-base">Programme Director</p>
             </div>
 
             {/* Team Member 3 */}
             <div>
-              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-4">
-                <img 
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=500&fit=crop" 
-                  alt="Funke Adeyemi" 
+              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-3 md:mb-4">
+                <img
+                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=500&fit=crop"
+                  alt="Funke Adeyemi"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-[#313A41] font-medium text-lg">Funke Adeyemi</h3>
-              <p className="text-primary">Outreach Coordinator</p>
+              <h3 className="text-[#313A41] font-medium text-sm md:text-lg">Funke Adeyemi</h3>
+              <p className="text-primary text-xs md:text-base">Outreach Coordinator</p>
             </div>
 
             {/* Team Member 4 */}
             <div>
-              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-4">
-                <img 
-                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=500&fit=crop" 
-                  alt="Tunde Bakare" 
+              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-3 md:mb-4">
+                <img
+                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=500&fit=crop"
+                  alt="Tunde Bakare"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-[#313A41] font-medium text-lg">Tunde Bakare</h3>
-              <p className="text-primary">Volunteer Manager</p>
+              <h3 className="text-[#313A41] font-medium text-sm md:text-lg">Tunde Bakare</h3>
+              <p className="text-primary text-xs md:text-base">Volunteer Manager</p>
             </div>
 
             {/* Team Member 5 */}
             <div>
-              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-4">
-                <img 
-                  src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&h=500&fit=crop" 
-                  alt="Ngozi Okafor" 
+              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-3 md:mb-4">
+                <img
+                  src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&h=500&fit=crop"
+                  alt="Ngozi Okafor"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-[#313A41] font-medium text-lg">Ngozi Okafor</h3>
-              <p className="text-primary">Mentorship Lead</p>
+              <h3 className="text-[#313A41] font-medium text-sm md:text-lg">Ngozi Okafor</h3>
+              <p className="text-primary text-xs md:text-base">Mentorship Lead</p>
             </div>
 
             {/* Team Member 6 */}
             <div>
-              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-4">
-                <img 
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop" 
-                  alt="Emeka Nwosu" 
+              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-3 md:mb-4">
+                <img
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop"
+                  alt="Emeka Nwosu"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-[#313A41] font-medium text-lg">Emeka Nwosu</h3>
-              <p className="text-primary">Communications Officer</p>
+              <h3 className="text-[#313A41] font-medium text-sm md:text-lg">Emeka Nwosu</h3>
+              <p className="text-primary text-xs md:text-base">Communications Officer</p>
             </div>
 
             {/* Team Member 7 */}
             <div>
-              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-4">
-                <img 
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=500&fit=crop" 
-                  alt="Blessing Uche" 
+              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-3 md:mb-4">
+                <img
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=500&fit=crop"
+                  alt="Blessing Uche"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-[#313A41] font-medium text-lg">Blessing Uche</h3>
-              <p className="text-primary">Events Coordinator</p>
+              <h3 className="text-[#313A41] font-medium text-sm md:text-lg">Blessing Uche</h3>
+              <p className="text-primary text-xs md:text-base">Events Coordinator</p>
             </div>
 
             {/* Team Member 8 */}
             <div>
-              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-4">
-                <img 
-                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=500&fit=crop" 
-                  alt="Kayode Ajayi" 
+              <div className="bg-[#E0E0E0] rounded-lg overflow-hidden aspect-3/4] mb-3 md:mb-4">
+                <img
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=500&fit=crop"
+                  alt="Kayode Ajayi"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-[#313A41] font-medium text-lg">Kayode Ajayi</h3>
-              <p className="text-primary">Finance Officer</p>
+              <h3 className="text-[#313A41] font-medium text-sm md:text-lg">Kayode Ajayi</h3>
+              <p className="text-primary text-xs md:text-base">Finance Officer</p>
             </div>
           </div>
         </div>

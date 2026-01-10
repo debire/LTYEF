@@ -51,7 +51,7 @@ const DonationsSection = ({
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-16 items-center">
           {/* Text Content */}
           <div className="max-w-2xl">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#313A41] mb-6">
+            <h2 className="text-[28px] md:text-[40px] font-bold text-[#313A41] mb-6">
               {title}
             </h2>
             <p className="text-[#313A41]/85 leading-relaxed mb-8">
@@ -59,14 +59,14 @@ const DonationsSection = ({
             </p>
             
             {/* Legend */}
-            <div className="grid grid-cols-2 gap-x-12 gap-y-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
               {data.map((item, index) => (
-                <div key={index} className="flex items-center gap-3 whitespace-nowrap">
+                <div key={index} className="flex items-start gap-3">
                   <span 
-                    className="w-4 h-4 shrink-0 rounded-sm" 
+                    className="w-4 h-4 shrink-0 rounded-sm mt-0.5" 
                     style={{ backgroundColor: item.color }}
                   ></span>
-                  <span className="text-[#313A41]/85">
+                  <span className="text-[#313A41]/85 wrap-break-word">
                     {item.percentage}% {item.label}
                   </span>
                 </div>

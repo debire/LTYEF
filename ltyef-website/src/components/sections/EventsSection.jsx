@@ -12,15 +12,17 @@ const EventsSection = ({
       label: "Next Event",
       eventName: "Youth Empowerment Workshop",
       location: "Kernel Park",
-      time: "10:00am"
+      time: "10:00am",
+      registerable: true
     },
     {
       day: "22",
       month: "JAN",
-      label: "Next Event",
+      label: "Coming Soon",
       eventName: "Mentorship Connect",
       location: "Kernel Park",
-      time: "10:00am"
+      time: "10:00am",
+      registerable: false
     }
   ]
 }) => {
@@ -40,7 +42,7 @@ const EventsSection = ({
           <span className="text-primary font-normal uppercase tracking-wide">
             {subtitle}
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#313A41] mt-3">
+          <h2 className="text-[28px] md:text-[40px] font-bold text-[#313A41] mt-3">
             {title}
           </h2>
         </div>
@@ -54,7 +56,7 @@ const EventsSection = ({
             >
               {/* Date */}
               <div className="text-start">
-                <span className="text-5xl font-bold text-[#313A41] block">{event.day}</span>
+                <span className="text-4xl font-bold text-[#313A41] block">{event.day}</span>
                 <span className="text-primary font-medium uppercase">{event.month}</span>
               </div>
 
@@ -63,23 +65,25 @@ const EventsSection = ({
                 <span className="text-[#313A41]/85 text-sm uppercase tracking-wide">
                   {event.label}
                 </span>
-                <h3 className="text-xl font-bold text-[#313A41] mt-1 mb-2">
+                <h3 className="text-sm font-bold text-[#313A41] mt-1 mb-2">
                   {event.eventName}
                 </h3>
                 <p className="text-[#313A41]/85">{event.location}</p>
                 <p className="text-[#313A41]/85">{event.time}</p>
               </div>
 
-              {/* Register Link */}
-              <div className="flex items-end">
-                <button 
-                  onClick={() => handleRegisterClick(event.eventName)}
-                  className="text-primary font-medium flex items-center gap-2 hover:gap-3 transition-all duration-300"
-                >
-                  Register
-                  <img src={arrowIcon} alt="" className="w-4 h-4" />
-                </button>
-              </div>
+              {/* Register Link - Only show if registerable */}
+              {event.registerable && (
+                <div className="flex items-end">
+                  <button 
+                    onClick={() => handleRegisterClick(event.eventName)}
+                    className="text-primary font-medium flex items-center gap-2 hover:gap-3 transition-all duration-300"
+                  >
+                    Register
+                    <img src={arrowIcon} alt="" className="w-4 h-4" />
+                  </button>
+                </div>
+              )}
             </div>
           ))}
         </div>

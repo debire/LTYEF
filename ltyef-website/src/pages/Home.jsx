@@ -25,7 +25,7 @@ const Home = () => {
 
         {/* Content */}
         <div className="relative z-10 w-full max-w-350 mx-auto my-12 px-4 sm:px-6 lg:px-12 py-32">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 max-w-5xl leading-tight">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 max-w-5xl leading-tight">
             Empowering Teens & Youth to Lead with Purpose
           </h1>
           <p className="text-white text-lg md:text-xl mb-8 max-w-4xl leading-relaxed">
@@ -57,7 +57,7 @@ const Home = () => {
               <span className="text-primary font-normal uppercase tracking-wide">
                 Know About Us
               </span>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#313A41] mt-3 mb-6">
+              <h2 className="text-[28px] md:text-[40px] font-bold text-[#313A41] mt-3 mb-6">
                 From Vision to Impact
               </h2>
               <p className="text-[#313A41]/85 leading-relaxed mb-4">
@@ -104,7 +104,7 @@ const Home = () => {
               <span className="text-primary font-normal uppercase tracking-wide">
                 What We Do
               </span>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#313A41] mt-3 mb-8">
+              <h2 className="text-[28px] md:text-[40px] font-bold text-[#313A41] mt-3 mb-8">
                 How We Make a Difference
               </h2>
 

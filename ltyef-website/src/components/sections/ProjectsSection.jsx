@@ -49,7 +49,7 @@ const ProjectsSection = ({
             <span className="text-primary font-normal uppercase tracking-wide">
               {subtitle}
             </span>
-            <h2 className="text-[40px] font-bold text-[#313A41] mt-3 mb-8 leading-tight">
+            <h2 className="text-[28px] md:text-[40px] font-bold text-[#313A41] mt-3 mb-8 leading-tight">
               {title}
             </h2>
             <div className="space-y-5">

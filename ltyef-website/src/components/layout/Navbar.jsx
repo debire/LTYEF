@@ -1,9 +1,10 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/logos/logo.svg';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const navRef = useRef(null);
 
   const navItems = [
     { name: 'Home', path: '/' },
@@ -13,8 +14,25 @@ const Navbar = () => {
     { name: 'Contact Us', path: '/contact' },
   ];
 
+  // Close menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        setIsMobileMenuOpen(false);
+      }
+    };
+
+    if (isMobileMenuOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isMobileMenuOpen]);
+
   return (
-    <nav className="bg-white shadow-sm sticky top-0 z-50">
+    <nav ref={navRef} className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-350 mx-auto px-4 sm:px-6 lg:px-12">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}

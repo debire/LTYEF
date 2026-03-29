@@ -7,21 +7,21 @@ const EventsSection = ({
   title = "Upcoming Events",
   events = [
     {
-      day: "24",
-      month: "DEC",
+      day: "21",
+      month: "FEB",
       label: "Next Event",
-      eventName: "Youth Empowerment Workshop",
-      location: "Kernel Park",
-      time: "10:00am",
+      eventName: "PHYSICAL EDITION",
+      location: "The School Premises",
+      time: "11:00am",
       registerable: true
     },
     {
-      day: "22",
-      month: "JAN",
+      day: "21",
+      month: "MAR",
       label: "Coming Soon",
-      eventName: "Mentorship Connect",
-      location: "Kernel Park",
-      time: "10:00am",
+      eventName: "TBD",
+      location: "TBD",
+      time: "11:00am",
       registerable: false
     }
   ]

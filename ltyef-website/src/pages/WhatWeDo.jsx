@@ -21,7 +21,7 @@ const WhatWeDo = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mt-3">
             {/* Text Content */}
             <div>
-              <h1 className="text-[28px] md:text-[40px] font-bold text-[#313A41] mb-6 leading-tight lg:whitespace-nowrap">
+              <h1 className="text-[28px] md:text-[40px] font-bold text-[#313A41] mb-6 leading-tight">
                 Our Approach to Youth Empowerment
               </h1>
               <div className="space-y-4">

@@ -2,16 +2,13 @@ import { useForm, ValidationError } from '@formspree/react';
 import CTASection from '../components/sections/CTASection';
 
 const Contact = () => {
-  // Replace 'YOUR_FORMSPREE_ID' with your actual Formspree form ID for contact form
   const [state, handleSubmit] = useForm('YOUR_FORMSPREE_ID');
 
   return (
     <div>
-      {/* Contact Section */}
       <section className="py-12 md:py-16">
         <div className="max-w-350 mx-auto px-4 sm:px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            {/* Left Side - Contact Info */}
             <div>
               <span className="text-primary font-normal uppercase tracking-wide">
                 Get In Touch
@@ -23,7 +20,6 @@ const Contact = () => {
                 Have any question in mind or want to enquire? Please feel free to contact us through the form or the following details.
               </p>
 
-              {/* Mobile */}
               <div className="mb-6">
                 <h3 className="text-[#313A41] font-bold mb-1">Mobile:</h3>
                 <a 
@@ -34,18 +30,16 @@ const Contact = () => {
                 </a>
               </div>
 
-              {/* Email */}
               <div className="mb-6">
                 <h3 className="text-[#313A41] font-bold mb-1">Email:</h3>
-                <a 
-                  href="mailto:info@ltyef.org" 
-                  className="text-[#313A41]/85 hover:text-primary transition-colors"
-                >
-                  info@ltyef.org
-                </a>
+                <a href="mailto:g2qinitiative@gmail.com" className="text-[#313A41]/85 hover:text-primary transition-colors">
+                    g2qinitiative@gmail.com
+                  </a><br />
+                  <a href="mailto:Leadingteensandyouth@gmail.com" className="text-[#313A41]/85 hover:text-primary transition-colors">
+                    Leadingteensandyouth@gmail.com
+                  </a>
               </div>
 
-              {/* Socials */}
               <div>
                 <h3 className="text-[#313A41] font-bold mb-1">Socials:</h3>
                 <div className="space-y-1">
@@ -77,7 +71,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Right Side - Contact Form */}
             <div>
               <span className="text-primary font-normal uppercase tracking-wide">
                 Contact Form
@@ -155,7 +148,7 @@ const Contact = () => {
                   <button
                     type="submit"
                     disabled={state.submitting}
-                    className="text-[#313A41] px-12 py-2 font-normal border-2 border-[#313A41] hover:bg-[#313A41] hover:text-white transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="text-[#313A41] px-12 py-2 font-normal border border-[#313A41] hover:bg-[#313A41] hover:text-white transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {state.submitting ? 'Submitting...' : 'Submit'}
                   </button>
@@ -166,7 +159,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
       <CTASection />
     </div>
   );

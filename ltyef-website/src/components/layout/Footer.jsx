@@ -9,7 +9,6 @@ const Footer = () => {
 
   const handleSubscribe = (e) => {
     e.preventDefault();
-    // Handle subscription logic here
     console.log('Subscribed:', email);
     setEmail('');
   };
@@ -18,7 +17,6 @@ const Footer = () => {
     <footer className="bg-white">
       <div className="max-w-350 mx-auto px-4 sm:px-6 lg:px-12 py-16">
         <div className="flex flex-col lg:flex-row lg:justify-between gap-12">
-          {/* Logo */}
           <div className="shrink-0">
             <Link to="/">
               <img
@@ -29,9 +27,7 @@ const Footer = () => {
             </Link>
           </div>
 
-          {/* Links Container */}
-          <div className="flex flex-wrap gap-x-24 gap-y-8">
-            {/* Navigation Links */}
+          <div className="flex flex-wrap gap-x-20 gap-y-8">
             <div>
               <h3 className="text-[#313A41] font-bold mb-4">Home</h3>
               <ul className="space-y-2">
@@ -58,7 +54,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* More Links */}
             <div>
               <h3 className="text-[#313A41] font-bold mb-4">More</h3>
               <ul className="space-y-2">
@@ -88,35 +83,33 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Connect Links */}
             <div>
               <h3 className="text-[#313A41] font-bold mb-4">Connect</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="text-[#313A41]/85 hover:text-primary transition-colors">
+                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-[#313A41]/85 hover:text-primary transition-colors">
                     Facebook
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-[#313A41]/85 hover:text-primary transition-colors">
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-[#313A41]/85 hover:text-primary transition-colors">
                     Instagram
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-[#313A41]/85 hover:text-primary transition-colors">
-                    Twitter
+                  <a href="mailto:g2qinitiative@gmail.com" className="text-[#313A41]/85 hover:text-primary transition-colors">
+                    g2qinitiative@gmail.com
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-[#313A41]/85 hover:text-primary transition-colors">
-                    Linkedin
+                  <a href="mailto:Leadingteensandyouth@gmail.com" className="text-[#313A41]/85 hover:text-primary transition-colors">
+                    Leadingteensandyouth@gmail.com
                   </a>
                 </li>
               </ul>
             </div>
           </div>
 
-          {/* Subscribe */}
           <div className="lg:w-80">
             <h3 className="text-[#313A41] font-bold text-xl mb-4">Subscribe to get latest updates</h3>
             <form onSubmit={handleSubscribe} className="flex">
@@ -139,7 +132,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Volunteer Modal */}
       <VolunteerModal 
         isOpen={isVolunteerModalOpen}
         onClose={() => setIsVolunteerModalOpen(false)}

@@ -29,10 +29,10 @@ const Donation = () => {
                   Every donation to Leading Teens & Youth Empowerment Foundation (LTYEF) and Girl-to-Queen Initiative (G2Q) is an investment in the future of a young person. Your generosity helps us provide mentorship, training, resources, and life-changing programmes to teens and youth who are hungry for guidance and opportunity. We are a nonprofit organisation, and we rely on the kindness of individuals, families, churches, and corporate partners to sustain and expand our work.
                 </p>
                 <p className="text-[#313A41]/85 leading-relaxed">
-                  When you give to LTYEF, you're not just making a donation — you're becoming part of a movement that is raising a generation of confident, responsible, and purpose-driven young leaders. Whether it's funding a mentorship session, sponsoring a young person's attendance at a conference, or providing resources for a community outreach, your contribution makes a tangible difference. No amount is too small, and every naira counts.
+                  When you give to LTYEF, you're not just making a donation you're becoming part of a movement that is raising a generation of confident, responsible, and purpose-driven young leaders. Whether it's funding a mentorship session, sponsoring a young person's attendance at a conference, or providing resources for a community outreach, your contribution makes a tangible difference. No amount is too small, and every naira counts.
                 </p>
                 <p className="text-[#313A41]/85 leading-relaxed">
-                  We are deeply grateful for every gift we receive. Your trust in our work motivates us to be excellent stewards of every resource entrusted to us. We are committed to transparency, accountability, and ensuring that your donations are used wisely to maximise impact. Thank you for considering a gift to LTYEF — together, we are building a brighter future for Nigeria's youth.
+                  We are deeply grateful for every gift we receive. Your trust in our work motivates us to be excellent stewards of every resource entrusted to us. We are committed to transparency, accountability, and ensuring that your donations are used wisely to maximise impact. Thank you for considering a gift to LTYEF together, we are building a brighter future for Nigeria's youth.
                 </p>
               </div>
             </div>
@@ -60,7 +60,7 @@ const Donation = () => {
               </h2>
               <div className="space-y-4">
                 <p className="text-[#313A41]/85 leading-relaxed">
-                  There are many ways you can support the work of LTYEF and G2Q. The most direct way is through a financial donation, which helps us fund our programmes, events, mentorship initiatives, and community outreach efforts. You can make a one-time gift or become a recurring donor, providing consistent support that allows us to plan and execute impactful programmes throughout the year. Every donation — whether large or small — goes directly toward transforming young lives.
+                  There are many ways you can support the work of LTYEF and G2Q. The most direct way is through a financial donation, which helps us fund our programmes, events, mentorship initiatives, and community outreach efforts. You can make a one-time gift or become a recurring donor, providing consistent support that allows us to plan and execute impactful programmes throughout the year. Every donation whether large or small goes directly toward transforming young lives.
                 </p>
                 <p className="text-[#313A41]/85 leading-relaxed">
                   Beyond financial giving, you can also contribute by sponsoring specific programmes or events. For example, you can sponsor a teen's participation in a leadership summit, fund the printing of educational materials, or cover the cost of transportation for outreach to underserved communities. Corporate sponsors and partners can also collaborate with us to host joint events, provide in-kind donations, or offer skills training to our beneficiaries.
@@ -122,13 +122,13 @@ const Donation = () => {
                       <span className="font-bold text-[#313A41]">Mentorship Programmes:</span> Your donation helps us recruit, train, and support mentors who walk alongside young people, providing guidance, encouragement, and accountability. Mentorship is the cornerstone of our work, and your gift ensures that more teens and youth have access to quality mentors who care about their growth and success.
                     </p>
                     <p className="text-[#313A41]/85 leading-relaxed">
-                      <span className="font-bold text-[#313A41]">Skills Training & Workshops:</span> We organise workshops and training sessions on topics such as leadership, financial literacy, public speaking, digital skills, and career readiness. Your support helps cover the costs of facilitators, venues, materials, and refreshments — ensuring that these sessions are accessible to as many young people as possible.
+                      <span className="font-bold text-[#313A41]">Skills Training & Workshops:</span> We organise workshops and training sessions on topics such as leadership, financial literacy, public speaking, digital skills, and career readiness. Your support helps cover the costs of facilitators, venues, materials, and refreshments ensuring that these sessions are accessible to as many young people as possible.
                     </p>
                     <p className="text-[#313A41]/85 leading-relaxed">
                       <span className="font-bold text-[#313A41]">Conferences & Summits:</span> Our flagship events bring together hundreds of teens and youth for powerful experiences of learning, inspiration, and connection. Your donation helps us secure venues, invite quality speakers, provide event materials, and offer subsidised or free tickets to young people who cannot afford to pay.
                     </p>
                     <p className="text-[#313A41]/85 leading-relaxed">
-                      <span className="font-bold text-[#313A41]">Community Outreach:</span> We take our programmes to schools, rural communities, and underserved areas where young people have limited access to mentorship and empowerment resources. Your support funds transportation, logistics, and materials for these outreach efforts — helping us reach those who need it most.
+                      <span className="font-bold text-[#313A41]">Community Outreach:</span> We take our programmes to schools, rural communities, and underserved areas where young people have limited access to mentorship and empowerment resources. Your support funds transportation, logistics, and materials for these outreach efforts helping us reach those who need it most.
                     </p>
                     <p className="text-[#313A41]/85 leading-relaxed">
                       <span className="font-bold text-[#313A41]">Operational Costs:</span> Running a nonprofit organisation requires resources for administration, communication, and coordination. Your donation helps cover essential operational costs that keep the organisation running smoothly and enable us to deliver quality programmes consistently.

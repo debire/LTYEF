@@ -29,7 +29,7 @@ const Home = () => {
             Empowering Teens & Youth to Lead with Purpose
           </h1>
           <p className="text-white text-lg md:text-xl mb-8 max-w-4xl leading-relaxed">
-            A collaboration of Girl-to-Queen Initiative and Leading Teens & Youth Empowerment Foundation — building a community of confident, responsible, and fulfilled young leaders across Nigeria.
+            A collaboration of Girl-to-Queen Initiative and Leading Teens & Youth Empowerment Foundation building a community of confident, responsible, and fulfilled young leaders across Nigeria.
           </p>
           <div className="flex flex-wrap gap-4">
             <button
@@ -61,10 +61,10 @@ const Home = () => {
                 From Vision to Impact
               </h2>
               <p className="text-[#313A41]/85 leading-relaxed mb-4">
-                Our journey began in 2017 when Girl-to-Queen Initiative (G2Q) was founded with a simple yet powerful vision — to mentor and empower girls and young women to become confident, fulfilled, and successful. After seven years of transforming lives and celebrating countless success stories, we expanded our mission. In July 2024, Leading Teens & Youth Empowerment Foundation (LTYEF) was born, extending our reach to include both male and female teens and youth. Today, these two organizations work hand-in-hand to build a generation of responsible, purpose-driven young leaders.
+                Our journey began in 2017 when Girl-to-Queen Initiative (G2Q) was founded with a simple yet powerful vision to mentor and empower girls and young women to become confident, fulfilled, and successful. After seven years of transforming lives and celebrating countless success stories, we expanded our mission. In July 2024, Leading Teens & Youth Empowerment Foundation (LTYEF) was born, extending our reach to include both male and female teens and youth. Today, these two organizations work hand-in-hand to build a generation of responsible, purpose-driven young leaders.
               </p>
               <p className="text-[#313A41]/85 leading-relaxed mb-8">
-                LTYEF exists to build a community where every teen and youth — regardless of background or circumstance — has access to mentorship, guidance, and opportunities for growth. Our mission is to groom young people into responsible, confident, and fulfilled adults who contribute meaningfully to their families, communities, and nation.
+                LTYEF exists to build a community where every teen and youth regardless of background or circumstance has access to mentorship, guidance, and opportunities for growth. Our mission is to groom young people into responsible, confident, and fulfilled adults who contribute meaningfully to their families, communities, and nation.
               </p>
               <Link
                 to="/about"
@@ -119,7 +119,7 @@ const Home = () => {
                 <div className="flex gap-4">
                   <img src={checkmarkIcon} alt="" className="w-6 h-6 mt-1 shrink-0" />
                   <p className="text-[#313A41]/85 leading-relaxed">
-                    <span className="font-bold text-[#313A41]">Skills Development:</span> Through workshops, training sessions, and hands-on programmes, we equip teens and youth with practical life skills — from leadership and communication to financial literacy and entrepreneurship.
+                    <span className="font-bold text-[#313A41]">Skills Development:</span> Through workshops, training sessions, and hands-on programmes, we equip teens and youth with practical life skills from leadership and communication to financial literacy and entrepreneurship.
                   </p>
                 </div>
 

@@ -24,13 +24,13 @@ const About = () => {
                   Welcome to Leading Teens & Youth Empowerment Foundation (LTYEF), a nonprofit organisation born out of passion, purpose, and a deep commitment to the next generation.
                 </p>
                 <p className="text-[#313A41]/85 leading-relaxed">
-                  Our story begins in 2017 with the founding of Girl-to-Queen Initiative (G2Q), a nonprofit organisation created with a heartfelt mission — to mentor and empower girls and young women to become confident, fulfilled, and successful. What started as a small vision quickly grew into a movement that touched the lives of countless young women across Nigeria.
+                  Our story begins in 2017 with the founding of Girl-to-Queen Initiative (G2Q), a nonprofit organisation created with a heartfelt mission to mentor and empower girls and young women to become confident, fulfilled, and successful. What started as a small vision quickly grew into a movement that touched the lives of countless young women across Nigeria.
                 </p>
                 <p className="text-[#313A41]/85 leading-relaxed">
                   G2Q was officially registered with the Corporate Affairs Commission Nigeria in January 2019, marking a significant milestone in our journey. For seven years, G2Q worked tirelessly to provide mentorship, host empowerment programmes, and create safe spaces where girls could discover their worth, develop their potential, and step boldly into their futures.
                 </p>
                 <p className="text-[#313A41]/85 leading-relaxed">
-                  In collaboration with Girl-to-Queen Initiative (G2Q), we are dedicated to mentoring, equipping, and empowering teens and youth across Nigeria to become confident, responsible, and fulfilled individuals. Our work is rooted in the belief that every young person — regardless of their background, circumstances, or challenges — deserves access to guidance, support, and opportunities that will help them thrive.
+                  In collaboration with Girl-to-Queen Initiative (G2Q), we are dedicated to mentoring, equipping, and empowering teens and youth across Nigeria to become confident, responsible, and fulfilled individuals. Our work is rooted in the belief that every young person regardless of their background, circumstances, or challenges deserves access to guidance, support, and opportunities that will help them thrive.
                 </p>
               </div>
             </div>
@@ -97,10 +97,10 @@ const About = () => {
               </h2>
               <div className="space-y-4">
                 <p className="text-[#313A41]/85 leading-relaxed">
-                  The journey of LTYEF and G2Q is one filled with faith, resilience, and countless moments of impact. It began in 2017 when Girl-to-Queen Initiative was founded with nothing but a vision and a heart for young women. Over the years, G2Q grew from a small mentorship group into a recognised nonprofit organisation, officially registered in 2019. Through mentorship sessions, empowerment events, school outreaches, and leadership workshops, G2Q impacted the lives of hundreds of girls and young women — helping them build confidence, develop life skills, and pursue their dreams with boldness.
+                  The journey of LTYEF and G2Q is one filled with faith, resilience, and countless moments of impact. It began in 2017 when Girl-to-Queen Initiative was founded with nothing but a vision and a heart for young women. Over the years, G2Q grew from a small mentorship group into a recognised nonprofit organisation, officially registered in 2019. Through mentorship sessions, empowerment events, school outreaches, and leadership workshops, G2Q impacted the lives of hundreds of girls and young women helping them build confidence, develop life skills, and pursue their dreams with boldness.
                 </p>
                 <p className="text-[#313A41]/85 leading-relaxed">
-                  In September 2024, we reached a defining milestone. As G2Q celebrated seven years of transforming lives, we officially launched Leading Teens & Youth Empowerment Foundation. This expansion marked a new chapter — one that embraced both young men and women and broadened our scope of impact. Since then, the collaboration between G2Q and LTYEF has resulted in powerful programmes, increased volunteer participation, and a growing community of young people who are being shaped into future leaders. Our journey is far from over; in fact, it's only just beginning. With every passing year, we are committed to reaching more young people, deepening our impact, and staying true to the mission that started it all.
+                  In September 2024, we reached a defining milestone. As G2Q celebrated seven years of transforming lives, we officially launched Leading Teens & Youth Empowerment Foundation. This expansion marked a new chapter one that embraced both young men and women and broadened our scope of impact. Since then, the collaboration between G2Q and LTYEF has resulted in powerful programmes, increased volunteer participation, and a growing community of young people who are being shaped into future leaders. Our journey is far from over; in fact, it's only just beginning. With every passing year, we are committed to reaching more young people, deepening our impact, and staying true to the mission that started it all.
                 </p>
               </div>
 

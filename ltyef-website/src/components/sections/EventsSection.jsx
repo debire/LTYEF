@@ -7,8 +7,8 @@ const EventsSection = ({
   title = "Upcoming Events",
   events = [
     {
-      day: "21",
-      month: "FEB",
+      day: "18",
+      month: "APR",
       label: "Next Event",
       eventName: "PHYSICAL EDITION",
       location: "The School Premises",
@@ -16,8 +16,8 @@ const EventsSection = ({
       registerable: true
     },
     {
-      day: "21",
-      month: "MAR",
+      day: "16",
+      month: "MAY",
       label: "Coming Soon",
       eventName: "TBD",
       location: "TBD",
@@ -37,7 +37,6 @@ const EventsSection = ({
   return (
     <section className="py-16 md:py-24">
       <div className="max-w-350 mx-auto px-4 sm:px-6 lg:px-12">
-        {/* Header */}
         <div className="mb-12">
           <span className="text-primary font-normal uppercase tracking-wide">
             {subtitle}
@@ -47,20 +46,17 @@ const EventsSection = ({
           </h2>
         </div>
 
-        {/* Event Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {events.map((event, index) => (
             <div 
               key={index} 
               className="border border-[#E0E0E0] rounded-lg p-6 flex gap-6"
             >
-              {/* Date */}
               <div className="text-start">
                 <span className="text-4xl font-bold text-[#313A41] block">{event.day}</span>
                 <span className="text-primary font-medium uppercase">{event.month}</span>
               </div>
 
-              {/* Event Details */}
               <div className="flex-1">
                 <span className="text-[#313A41]/85 text-sm uppercase tracking-wide">
                   {event.label}
@@ -72,7 +68,6 @@ const EventsSection = ({
                 <p className="text-[#313A41]/85">{event.time}</p>
               </div>
 
-              {/* Register Link - Only show if registerable */}
               {event.registerable && (
                 <div className="flex items-end">
                   <button 
@@ -89,7 +84,6 @@ const EventsSection = ({
         </div>
       </div>
 
-      {/* Event Registration Modal */}
       <EventRegistrationModal 
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
